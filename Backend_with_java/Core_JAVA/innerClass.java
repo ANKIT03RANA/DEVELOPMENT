@@ -20,9 +20,17 @@ class A{
         }
     }
 }
+
+abstract class D{
+    abstract void Dependent();
+}
 public class innerClass {
     public static void main(String[] args) {
-        A obj =new A();
+        A obj =new A(){
+            void show(){
+                System.out.println("in Annonyous innerclass show");
+            }
+        };
         obj.show();
 
         A.B obj1= obj.new B();
@@ -30,5 +38,16 @@ public class innerClass {
 
         A.C obj2 = new A.C();
         obj2.config1();
+
+        D ob = new D(){
+
+            @Override                     
+            void Dependent() {           //We can define as many as methods we want
+                // TODO Auto-generated method stub
+                System.out.println("This is object of inner class");
+            }
+            
+        };
+        ob.Dependent();
     }
 }
