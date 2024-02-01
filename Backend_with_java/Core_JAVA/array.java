@@ -15,7 +15,7 @@ public class array {
         //         m = (int)(Math.random()*100);
         //     }
         // }
-        for(int n[] : nums){
+        for(int n[] : nums){  //enhanced for loop
             for(int m : n){
                 
                 System.out.print(m + " ");
