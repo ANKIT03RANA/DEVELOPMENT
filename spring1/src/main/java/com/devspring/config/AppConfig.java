@@ -12,7 +12,7 @@ import com.devspring.Desktop;
 import com.devspring.Laptop;
 
 @Configuration //for java based configuration
-@ComponentScan("com.devspring") //Annotation based configuration
+@ComponentScan("com.devspring") //for Annotation based configuration
 public class AppConfig {
 
    // public Alien alien(@Qualifier("desktop") Computer com){ qualifier annotation is same like ref in xml config
