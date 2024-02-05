@@ -25,7 +25,7 @@ public class Alien {
         return age;
     }
     @Autowired  //It is always prferred to write this at setter
-    // @Qualifier("desktop") // name of class should start with small caps //qualifier does have high priority than primary // This is called Field Injection
+    // @Qualifier("desktop") // name of class should start with small caps qualifier does have high priority than primary // This is called Field Injection
     public void setlap(Computer lap) {
         this.lap = lap;
     }

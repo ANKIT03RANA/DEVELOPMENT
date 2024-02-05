@@ -17,7 +17,7 @@ public class AppConfig {
 
    // public Alien alien(@Qualifier("desktop") Computer com){ qualifier annotation is same like ref in xml config
     @Bean
-    public Alien alien(@Autowired Computer com){ //qualifier annotation is same like ref in xml config
+    public Alien alien(@Autowired Computer com){ 
         Alien obj = new Alien();
         obj.setAge(24);
         obj.setlap(com);
@@ -26,7 +26,7 @@ public class AppConfig {
     }
 
     @Bean(name={"Desk1","Comp1"})//here using name we can name the bean and we can give array of name as well using paranthesis
-    // @Scope("prototype")// same like sl config by default it is singleton.
+    // @Scope("prototype")// same like xml config by default it is singleton.
     public Desktop desktop(){
         return new Desktop();
     }

@@ -14,7 +14,7 @@
         <property name="age" value="23"></property> <!-- Setter Injection-->
         <property name="lap" ref="lap1"></property>
         <!-- <property name="lap" >
-            <bean id="lap1" class="com.devspring.Laptop" >  Inner bean
+            <bean id="lap1" class="com.devspring.Laptop" >  Inner bean Here no need to use ref
             </bean>
         </property> -->
     </bean>

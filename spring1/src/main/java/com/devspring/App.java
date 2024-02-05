@@ -15,6 +15,7 @@ public class App
     {
         //--------------------------------------------------------------------------------------------------------//
         //Java Based configuration
+        // System.out.println( "Java Configuration" );
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Alien obj = (Alien)context.getBean(Alien.class);
         obj.code();

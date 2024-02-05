@@ -1,10 +1,12 @@
-package com.devspring.demo.model;
+package com.devspring.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.devspring.demo.model.Laptop;
 import com.devspring.demo.service.LaptopService;
+
 
 @SpringBootApplication
 public class DemoApplication {
