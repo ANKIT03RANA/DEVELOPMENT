@@ -46,7 +46,7 @@ public class HomeController {
 
     }
     @RequestMapping("addAlien")//with the help of modelattribute we dont need to receive params separately we can receive it using class having same params
-    public String addAlien(@ModelAttribute("alien")Alien alien) { //if we dont use modelAttribute it will work because modelattribute is optional but then we have to use the same object name is result(i.e. view)
+    public String addAlien(@ModelAttribute("alien")Alien alien) { //if we dont use modelAttribute it will work because modelattribute is optional but then we have to use the same object name in result(i.e. view)
         return "resutl";
     }
     
