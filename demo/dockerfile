@@ -1,0 +1,6 @@
+# create/pull Image for jvm
+# copy the jar file in container
+# command to execute
+FROM openjdk:22-jdk 
+ADD target/springdemo.jar springdemo.jar
+ENTRYPOINT [ "java", "-jar", "/springdemo.jar" ]
