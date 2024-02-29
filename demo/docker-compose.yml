@@ -19,7 +19,7 @@ services:
     networks:
       - my-network
     volumes:
-    - postgres-d-data:/var/lib/postgresql/data
+      - postgres-d-data:/var/lib/postgresql/data
 
 networks:
   my-network:
