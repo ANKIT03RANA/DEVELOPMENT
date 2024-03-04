@@ -3,7 +3,7 @@ package com.devspring.springdatarestdemo.repo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.telusko.springdatarestdemo.model.JobPost;
+import com.devspring.springdatarestdemo.model.JobPost;
 
 
 @Repository
