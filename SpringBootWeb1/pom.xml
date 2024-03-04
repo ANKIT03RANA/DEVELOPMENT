@@ -9,7 +9,7 @@
 		<version>3.3.0-M1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.despring</groupId>
+	<groupId>com.devspring</groupId>
 	<artifactId>SpringBootWeb1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootWeb1</name>
