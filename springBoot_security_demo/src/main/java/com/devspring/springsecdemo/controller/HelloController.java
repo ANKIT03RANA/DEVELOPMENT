@@ -15,6 +15,6 @@ public class HelloController {
 	
 	@GetMapping("about")
 	public String about(HttpServletRequest request) {
-		return "Telusko "+request.getSession().getId();
+		return "devspring "+request.getSession().getId();
 	}
 }

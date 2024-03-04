@@ -9,7 +9,7 @@
 		<version>3.2.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.telusko</groupId>
+	<groupId>com.devspring</groupId>
 	<artifactId>spring-data-rest-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-data-rest-demo</name>

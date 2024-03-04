@@ -1,4 +1,4 @@
-package com.telusko.springdatarestdemo.model;
+package com.devspring.springdatarestdemo.model;
 
 
 import java.util.List;

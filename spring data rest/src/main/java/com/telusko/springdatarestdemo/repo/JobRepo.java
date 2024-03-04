@@ -1,4 +1,4 @@
-package com.telusko.springdatarestdemo.repo;
+package com.devspring.springdatarestdemo.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

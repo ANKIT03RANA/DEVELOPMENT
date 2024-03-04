@@ -1,4 +1,4 @@
-package com.telusko.springdatarestdemo;
+package com.devspring.springdatarestdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

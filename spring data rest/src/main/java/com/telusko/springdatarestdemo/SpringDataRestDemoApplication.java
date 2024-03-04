@@ -1,4 +1,4 @@
-package com.telusko.springdatarestdemo;
+package com.devspring.springdatarestdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
