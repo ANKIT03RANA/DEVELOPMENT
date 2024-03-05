@@ -28,7 +28,7 @@ public class innerClass {
     public static void main(String[] args) {
         A obj =new A(){
             void show(){
-                System.out.println("in Annonyous innerclass show");
+                System.out.println("in Annonymous innerclass show");
             }
         };
         obj.show();
