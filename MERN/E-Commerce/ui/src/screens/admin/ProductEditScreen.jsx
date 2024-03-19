@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { Form, Button } from 'react-bootstrap';
-import Message from '../../components/Message';
-import Loader from '../../components/Loader';
-import FormContainer from '../../components/FormContainer';
 import { toast } from 'react-toastify';
+import FormContainer from '../../components/FormContainer';
+import Loader from '../../components/Loader';
+import Message from '../../components/Message';
 import {
   useGetProductDetailsQuery,
   useUpdateProductMutation,
@@ -73,6 +73,7 @@ const ProductEditScreen = () => {
   const uploadFileHandler = async (e) => {
     const formData = new FormData();
     formData.append('image', e.target.files[0]);
+    console.log(e.target.files[0]);
     try {
       const res = await uploadProductImage(formData).unwrap();
       toast.success(res.message);
